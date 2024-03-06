@@ -1,0 +1,607 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.navbar {
+    background-color: rgba(19, 18, 18, 0.60) !important;
+    background-image: url(image/personal-trainer-1.jpg);
+
+}
+
+.logo {
+    width: 12%;
+
+}
+
+.navbar-toggler {
+    background-color: white !important;
+
+}
+
+.nav-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+    color: #f64631 !important;
+}
+
+.nav-item {
+    margin-left: 35px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* @media(max-width: 992px){
+    .nav-link {
+        margin-right:60px !important;
+        
+        
+    }
+} */
+
+.search-icon {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #101010 !important;
+
+}
+
+/* hero section */
+#banner-img {
+    background-image: url(personal-trainer-1.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 729px;
+
+}
+
+
+.gemvast-color-change {
+    color: #f64631;
+    font-weight: bold;
+}
+
+
+@media(max-width:768px) {
+    #set {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 400px;
+
+
+    }
+}
+
+@media(max-width:768px) {
+    #mobile-r{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+}
+
+
+.banner-text {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+
+.banner-text,
+p {
+
+    color: white;
+}
+
+#rnroll {
+    height: 55px;
+    width: 166px;
+    border: 1px;
+    border-radius: 50px;
+    color: white;
+    background-color: #f64631;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* member-section */
+
+.member-heading {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#join-btn {
+    height: 55px;
+    width: 204px;
+    border: 1px solid red;
+    border-radius: 50px;
+    background-color: white;
+    color: #f64631;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+
+
+}
+
+.btn-div {
+    display: flex;
+    text-align: center;
+    justify-content: end;
+}
+
+@media(max-width:992px) {
+    .member-heading {
+
+        font-size: 1rem;
+        ;
+    }
+}
+
+@media(max-width:768px) {
+    .member-heading {
+
+        font-size: 1rem;
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    #mobile {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-div {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    #join-btn {
+        height: 40px;
+        width: 180px;
+
+    }
+}
+
+
+/* about */
+
+
+#contact-me {
+    height: 55px;
+    width: 166px;
+    border: 1px;
+    border-radius: 50px;
+    color: white;
+    background-color: #f64631;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media(max-width:1195px) {
+    .about-img {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .mobile-margin {
+        margin-top: 50px !important;
+    }
+}
+
+@media(min-width:769px) and (max-width:991px) {
+    .img {
+        height: 488px !important;
+        margin-top: 30px;
+
+    }
+
+    .about-img {
+        margin-right: 20px;
+    }
+}
+
+.about-para {
+
+    text-align: justify;
+}
+
+/* .mobile-margin{
+            font-size: 0.7rem;
+            padding-top: 30px;
+        } */
+#contact-me {
+    height: 45px;
+    width: 140px;
+
+}
+
+
+
+.about-heading {
+    text-transform: uppercase;
+    color: black !important;
+    font-weight: 700 !important;
+
+}
+
+.about-underline {
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #f64631;
+}
+
+.about-para {
+
+    color: #555555 !important;
+}
+
+
+/* expriences-heading */
+
+
+#expriences-bg-img {
+    background-image: url(experience-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.trainer-name {
+    font-weight: bold;
+}
+
+.expriences-para {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.expriences-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.expriences-heading-underline {
+    display: block;
+    align-self: center;
+    position: relative;
+    top: -15px;
+    right: -40px;
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #f64631;
+}
+
+@media(min-width:425px) and (max-width:768px) {
+    .expriences-heading-underline {
+        position: relative;
+        left: 23px;
+    }
+}
+
+/* services */
+
+#Services-img {
+    background-image: url(bmi-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#services-box {
+    /* width: 371px;
+        height: 181px; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 0 30px 0;
+
+}
+
+/* @media(max-width:992px){
+        #services-box{
+           margin: 0 10px 0 px;
+        }
+        } */
+.services-heading-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.services-heading-center {
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-heading {
+    color: white;
+    font-weight: bold;
+}
+
+.services-heading-underline {
+    display: block;
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #f64631;
+    position: relative;
+    bottom: -15px;
+}
+
+.Services-child-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-child-logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.Services-para {
+    color: #555555;
+}
+
+
+
+/* Choose Your Classes */
+
+.classes-heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.classes-heading-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.classes-heading-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bottom {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-name {
+    color: #f64631;
+    padding-top: 10px;
+}
+
+@media(max-width:768px) {
+    .class-name {
+        margin-bottom: 60px;
+        
+    }
+}
+
+
+/* pricing */
+
+
+.pricing-heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#price-bg-img1 {
+    background-image: url(slider1-1024x640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#price-bg-img2 {
+    background-image: url(p1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#price-bg-img3 {
+    background-image: url(p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pricing-heading-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.pricing-heading-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-heading-underline {
+    display: block;
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #f64631;
+    position: relative;
+    bottom: -15px;
+}
+
+.standard {
+    padding: 60px 100px 60px 100px;
+}
+
+@media(max-width:768px) {
+    .standard {
+        margin-bottom: 60px;
+    }
+}
+
+.pricing-para p {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.del-text {
+    color: #f64631;
+    font-size: 1.1rem;
+}
+
+#buy {
+    height: 45px;
+    width: 160px;
+    border: 1px solid red;
+    border-radius: 50px;
+    background-color: #f64631;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+
+
+}
+
+
+/* footer */
+
+
+#social-media-background{
+    background-color:#272727;
+    
+    
+}
+.contact-text-footer a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+    
+    
+}
+
+#center{
+    
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.contact-text-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+.contact-text-footer a{
+    color: white;
+    
+}
+
+.social-media-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.circle{
+    height: 35px;
+    width: 35px;
+    background-color: #f64631;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+
+}
+.circle ,a{
+    color: #ffffff;
+    
+}
+
+
+.f-logo{
+    height: 35px !important;
+    margin-bottom: 20px;
+}
+
+.input-group-text{
+    height: 50px !important;
+    
+    
+}
+.subscribe-bg{
+    position: relative;
+    left: -20px;
+    width: 100px;
+    background-color: #f64631 !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+@media(max-width:768px){
+   #mobile-margin-top{
+    margin-top: 30px;
+
+   }
+}
+
+@media(max-width:768px){
+    .mobile-footer-mar{
+     padding-top: 30px;
+ 
+    }
+ }
